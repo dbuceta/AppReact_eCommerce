@@ -1,0 +1,252 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+*/
+:-ms-input-placeholder {
+  color: #888
+}
+
+:root {
+--primary: #efb6b2;
+--secondary: #4e4e4e;
+--error: #ff4a4a;
+}
+
+body {
+  background-color: #dce3f0
+}
+
+.card {
+    width: 570px;
+    height: 300px
+}
+
+.image {
+    position: absolute;
+    right: 12px;
+    top: 10px
+}
+
+.main-heading {
+    font-size: 40px;
+    color: red !important
+}
+
+.ratings i {
+    color: orange
+}
+
+.user-ratings h6 {
+    margin-top: 2px
+}
+
+.colors {
+    display: flex;
+    margin-top: 2px
+}
+
+.colors span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    margin-right: 6px
+}
+
+.colors span:nth-child(1) {
+    background-color: red
+}
+
+.colors span:nth-child(2) {
+    background-color: blue
+}
+
+.colors span:nth-child(3) {
+    background-color: yellow
+}
+
+.colors span:nth-child(4) {
+    background-color: purple
+}
+
+.btn-danger {
+    height: 28px;
+    font-size: 12px
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+#contactus {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
+}
+
+#contactus h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px
+}
+
+#contactus h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%
+}
+
+#contactus input[type="text"],
+#contactus input[type="email"],
+#contactus input[type="telefono"],
+#contactus input[type="password"],
+#contactus input[type="url"],
+#contactus textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px
+}
+
+#contactus input[type="text"]:hover,
+#contactus input[type="email"]:hover,
+#contactus input[type="tel"]:hover,
+#contactus input[type="url"]:hover,
+#contactus textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa
+}
+
+#contactus textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none
+}
+
+#contactus button[type="reset"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f0715f;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+#contactus button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f0715f;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+#contactus button[type="submit"]:hover {
+    background: #f07150;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+#contactus button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+#contactus input:focus,
+#contactus textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa
+}
+
+::-webkit-input-placeholder {
+    color: #888
+}
+
+:-moz-placeholder {
+    color: #888
+}
+
+::-moz-placeholder {
+    color: #888
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.title h1 {
+  color: var(--primary);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.title h2,
+.title p {
+  text-align: center;
+}
+.title h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
+
+/* upload form styles */
+
+.output{
+  height: 60px;
+  font-size: 0.8rem;
+}
+.error{
+  color: var(--error);
+}
+
+/* image grid styles */
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 0.8;
+}
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wrapper div span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+  }
